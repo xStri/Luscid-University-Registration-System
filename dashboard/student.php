@@ -105,7 +105,10 @@ function renderCourseTable($courses) {
         <aside class="sidebar">
             <h2>Student Menu</h2>
             <nav>
-                <ul>
+                <ul> 
+                    <li><a href="holds.php">View Holds</a></li>
+                    <li><a href="department.php">View Departments</a></li>
+                    <li><a href="declarations.php">Declare or Change Major/Minor</a></li>
                     <li><a href="account_settings.php">Account Settings</a></li>
                     <li><a href="grades.php">View Unofficial Transcript</a></li>
                     <li><a href="degree_audit.php">View Degree Audit</a></li>
